@@ -1,0 +1,33 @@
+
+
+.navbarAll {
+    width: 100%;
+    overflow: hidden;
+    margin: 0; 
+    padding: 0; 
+    text-align: center;
+    height: 50px;
+    background-color: pink;
+}
+
+.navLinko {
+    
+}
+
+
+.navTitle {
+    list-style-type: none;
+    float: left;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.navLinks {
+    list-style-type: none;
+    float: right;
+    padding-right: 25px;
+}
+
+.navLink {
+    text-decoration: none;
+}
+
