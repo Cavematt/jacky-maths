@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from './Navbar'
 import Home from './Components/Home'
-import AboutMe from './Components/About'
+import Testimonials from './Components/Testimonials'
 import Prices from './Components/Prices'
 import Contact from './Components/Contact'
 
@@ -18,8 +18,8 @@ function App() {
           <Route path="/" exact>
             <Home />
           </Route>
-          <Route path="/About" exact>
-            <AboutMe />
+          <Route path="/Testimonials" exact>
+            <Testimonials />
           </Route>
           <Route path="/Prices" exact>
             <Prices />
