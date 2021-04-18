@@ -9,3 +9,10 @@ body {
     padding-left: 60px;
     padding-right: 60px;
 }
+
+.mathsImage {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-radius: 25px;
+}

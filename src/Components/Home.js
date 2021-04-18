@@ -1,10 +1,12 @@
 import React from 'react'
 import "./Home.css"
+import Maths from "./Maths.jpg"
 
 function Home() {
 
     return (
         <div className="allText">
+            <img className="mathsImage" src={Maths} alt="jacky teaching maths" />
             <div>
                 <h3>Do you or your children need some help with maths?</h3>
             </div>
