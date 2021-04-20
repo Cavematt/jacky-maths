@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from "react-router-dom"
 import "./Navbar.css"
 
 function Navbar() {
+    const [screen, setScreen] = useState(false)
+
+    useEffect(() => {
+        if (window.innerWidth < 999) {
+            setScreen(false)
+        } else {
+            setScreen(true)
+        }
+    }, [])
+
+    
     return (
         <div className="navbarAll">
             <div class="navLinko">
